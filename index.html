@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="wrapper">
+        <section class="header">
+            <section>
+                <section class="date">
+                    <h3>Today</h3>
+                </section>
+                <form action="" id="todo-form">
+                    <input type="text" id="todo_value" class="todo_value" name="todo_value" placeholder="e.g. Buy Groceries">
+                    <button type="submit" class="todo_btn">Add Todo</button>
+                </form>
+            </section>
+        </section>
+        <section class="todos-section">
+            <section class="todo-stats">
+                <button class="stats-btn">
+                    <span class="stats-btn-first">Pending</span> 
+                    <span id="pending">0</span>
+                </button>
+                <button class="stats-btn">
+                    <span class="stats-btn-first">Completed</span>
+                    <span id="finished">0</span>
+                </button>
+                <button class="stats-btn">
+                    <span class="stats-btn-first">Total</span>
+                    <span id="total">0</span>
+                </button>
+            </section>
+            <section class="todos" id="todos">
+               
+            </section>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
